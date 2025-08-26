@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lapot Repair Shop - Expert Laptop Repairs in Gaziabad</title>
+  <meta name="description" content="Expert laptop repair services in Gaziabad. We offer all possible laptop repairs with fast turnaround times.">
+  <meta property="og:title" content="Lapot Repair Shop - Expert Laptop Repairs in Gaziabad">
+  <meta property="og:description" content="Expert laptop repair services in Gaziabad. We offer all possible laptop repairs with fast turnaround times.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1737298336365-8e164f9a025d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwxfHxMYXBvdCUyMFJlcGFpciUyMHNob3B8ZW58MXwwfHx8MTc1NjIyNTUwMHww&ixlib=rb-4.1.0&q=80&w=1080">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#3490dc', // Example primary color
+            secondary: '#6574cd', // Example secondary color
+            accent: '#f6993f', // Example accent color
+          },
+        },
+      },
+    }
+  </script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Lapot Repair Shop",
+      "description": "Expert laptop repair services in Gaziabad.",
+      "url": "https://www.example.com",
+      "logo": "https://res.cloudinary.com/drknkcjgh/image/upload/v1756225480/devmarket/logos/dkfszxytbhtzdt0fho4v.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Some Address in Gaziabad",
+        "addressLocality": "Gaziabad",
+        "addressRegion": "UP",
+        "postalCode": "201001",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9999999999",
+        "contactType": "Customer Service",
+        "areaServed": "Gaziabad",
+        "availableLanguage": ["en","hi"]
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 font-sans">
+
+  <!-- Sticky Navigation Header -->
+  <header class="sticky top-0 z-50 bg-white shadow-md" role="banner">
+    <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="/" class="flex items-center space-x-2">
+          <img src="https://res.cloudinary.com/drknkcjgh/image/upload/v1756225480/devmarket/logos/dkfszxytbhtzdt0fho4v.jpg" alt="Lapot Repair Shop Logo" class="h-10 w-auto">
+          <span class="font-semibold text-xl text-gray-800">Lapot Repair</span>
+        </a>
+        <div class="hidden md:flex items-center space-x-6">
+          <a href="#services" class="text-gray-600 hover:text-primary transition-colors duration-200">Services</a>
+          <a href="#about" class="text-gray-600 hover:text-primary transition-colors duration-200">About Us</a>
+          <a href="#contact" class="text-gray-600 hover:text-primary transition-colors duration-200">Contact</a>
+          <a href="tel:+919999999999" class="bg-primary text-white px-4 py-2 rounded-md hover:bg-primary-700 transition-colors duration-200">Call Now</a>
+        </div>
+        <div class="md:hidden">
+          <button id="mobile-menu-button" class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary">
+            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative py-24 bg-gray-100" role="region" aria-label="Hero Section">
+    <div class="absolute inset-0">
+      <img src="https://images.unsplash.com/photo-1737298336365-8e164f9a025d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwxfHxMYXBvdCUyMFJlcGFpciUyMHNob3B8ZW58MXwwfHx8MTc1NjIyNTUwMHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Laptop Repair Shop" class="w-full h-full object-cover object-center opacity-50">
+      <div class="absolute inset-0 bg-black opacity-40"></div>
+    </div>
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+      <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4">Your Trusted Laptop Repair Experts in Gaziabad</h1>
+      <p class="text-lg sm:text-xl text-gray-200 mb-8">Fast, reliable, and affordable laptop repair services for all brands and models.</p>
+      <a href="#contact" class="inline-block bg-accent text-white px-6 py-3 rounded-md hover:bg-accent-700 transition-colors duration-200">Get a Free Quote</a>
+      <p class="text-sm text-gray-300 mt-4">Image by <a href="https://unsplash.com/@konstantinkitsenuik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="underline">Konstantin Kitsenuik</a> on <a href="https://unsplash.com/photos/a-small-blue-building-with-a-sign-on-it-1Qf6j3P2Y" class="underline">Unsplash</a></p>
+    </div>
+  </section>
+
+  <!-- Social Proof Badges -->
+  <section class="py-8 bg-gray-50" role="region" aria-label="Social Proof">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-center items-center gap-4">
+      <img src="https://via.placeholder.com/120x40/4CAF50/FFFFFF?text=Trusted" alt="Trusted Badge" class="h-10 w-auto">
+      <img src="https://via.placeholder.com/120x40/2196F3/FFFFFF?text=5-Star" alt="5-Star Rating Badge" class="h-10 w-auto">
+      <img src="https://via.placeholder.com/120x40/FF9800/FFFFFF?text=Expert" alt="Expert Repair Badge" class="h-10 w-auto">
+    </div>
+  </section>
+
+  <!-- Features Grid -->
+  <section id="services" class="py-16 bg-white" role="region" aria-labelledby="features-heading">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="features-heading" class="text-3xl font-bold text-center text-gray-800 mb-12">Our Expert Laptop Repair Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Feature 1 -->
+        <div class="shadow-md rounded-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1670847605800-038aba5f2417?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwyfHxMYXBvdCUyMFJlcGFpciUyMHNob3B8ZW58MXwwfHx8MTc1NjIyNTUwMHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Laptop Screen Repair" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Screen Replacement</h3>
+            <p class="text-gray-600">Cracked or broken screen? We offer fast and affordable screen replacement services for all laptop models.</p>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="shadow-md rounded-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1556740772-1a741367b93e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MXwxfHNlYXJjaHwxfHxidXNpbmVzc3xlbnwxfDB8fHwxNzU2MTA2Mjg2fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Laptop Keyboard Repair" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Keyboard Repair & Replacement</h3>
+            <p class="text-gray-600">Sticking keys or a broken keyboard? We can repair or replace your laptop keyboard quickly and efficiently.</p>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="shadow-md rounded-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1664575602276-acd073f104c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwyfHxidXNpbmVzc3xlbnwxfDB8fHwxNzU2MTA2Mjg2fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Laptop Battery Replacement" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Battery Replacement</h3>
+            <p class="text-gray-600">Is your laptop battery not holding a charge? We offer battery replacement services for all major brands.</p>
+          </div>
+        </div>
+
+         <!-- Feature 4 -->
+         <div class="shadow-md rounded-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1670847605800-038aba5f2417?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwyfHxMYXBvdCUyMFJlcGFpciUyMHNob3B8ZW58MXwwfHx8MTc1NjIyNTUwMHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Laptop Screen Repair" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Data Recovery</h3>
+            <p class="text-gray-600">Lost your important files, Don't worry we can help you to recover all data.</p>
+          </div>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="shadow-md rounded-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1556740772-1a741367b93e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MXwxfHNlYXJjaHwxfHxidXNpbmVzc3xlbnwxfDB8fHwxNzU2MTA2Mjg2fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Laptop Keyboard Repair" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Motherboard Repair</h3>
+            <p class="text-gray-600">Having issues with your laptop's motherboard, we will check and provide you all services related to it.</p>
+          </div>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="shadow-md rounded-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1664575602276-acd073f104c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwyfHxidXNpbmVzc3xlbnwxfDB8fHwxNzU2MTA2Mjg2fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Laptop Battery Replacement" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Virus Removal</h3>
+            <p class="text-gray-600">Get rid of all viruses from your laptop, we provide all antivirus services.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="py-16 bg-gray-100" role="region" aria-labelledby="benefits-heading">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="benefits-heading" class="text-3xl font-bold text-center text-gray-800 mb-12">Why Choose Lapot Repair?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">Expert Technicians</h3>
+          <p class="text-gray-600 mb-6">Our team of certified technicians has years of experience repairing all types of laptops. We stay up-to-date on the latest technologies to provide the best possible service.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">Fast Turnaround Times</h3>
+          <p class="text-gray-600 mb-6">We understand that you need your laptop back as soon as possible. That's why we offer fast turnaround times on all repairs, without compromising on quality.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">Affordable Prices</h3>
+          <p class="text-gray-600 mb-6">We offer competitive prices on all of our repair services. Get a free quote today and see how much you can save.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">Quality Parts</h3>
+          <p class="text-gray-600 mb-6">We only use high-quality parts in our repairs to ensure the longevity and reliability of your laptop.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Use-Case Cards -->
+   <section class="py-16 bg-white" role="region" aria-labelledby="use-cases-heading">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="use-cases-heading" class="text-3xl font-bold text-center text-gray-800 mb-12">Laptop Issues We Solve</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div class="bg-gray-50 rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Overheating Problems</h3>
+          <p class="text-gray-600">Is your laptop overheating? We can diagnose and fix the problem to prevent damage and improve performance.</p>
+        </div>
+
+        <div class="bg-gray-50 rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Slow Performance</h3>
+          <p class="text-gray-600">Is your laptop running slow? We can optimize your system and remove any malware to improve speed and efficiency.</p>
+        </div>
+
+        <div class="bg-gray-50 rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Startup Issues</h3>
+          <p class="text-gray-600">Is your laptop not starting up properly? We can diagnose and fix the problem to get you back up and running.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Slider (Static HTML) -->
+  <section class="py-16 bg-gray-100" role="region" aria-labelledby="testimonials-heading">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="testimonials-heading" class="text-3xl font-bold text-center text-gray-800 mb-8">What Our Customers Say</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="bg-white shadow-md rounded-lg p-8">
+              <p class="text-gray-700 italic mb-4">"I was so impressed with the fast and professional service I received from Lapot Repair. They fixed my laptop screen in just a few hours and the price was very reasonable. Highly recommended!"</p>
+              <p class="font-semibold text-gray-800">- John Doe</p>
+              <p class="text-gray-600">Satisfied Customer</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="bg-white shadow-md rounded-lg p-8">
+              <p class="text-gray-700 italic mb-4">"Lapot Repair saved my life! I spilled coffee on my laptop and they were able to recover all of my data. The staff was friendly and helpful, and the repair was done quickly. Thank you!"</p>
+              <p class="font-semibold text-gray-800">- Jane Smith</p>
+              <p class="text-gray-600">Happy Customer</p>
+            </div>
+          </div>
+          <!-- Add more slides as needed -->
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-white" role="region" aria-labelledby="about-heading">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="about-heading" class="text-3xl font-bold text-center text-gray-800 mb-8">About Lapot Repair Shop</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div>
+          <img src="https://images.unsplash.com/photo-1556740772-1a741367b93e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MXwxfHNlYXJjaHwxfHxidXNpbmVzc3xlbnwxfDB8fHwxNzU2MTgwNjU1fDA&ixlib=rb-4.1.0&q=80&w=full" alt="About Lapot Repair Shop" class="w-full h-64 object-cover rounded-lg">
+        </div>
+        <div>
+          <p class="text-gray-600 mb-6">We are a team of experienced laptop repair technicians dedicated to providing fast, reliable, and affordable repair services to the residents of Gaziabad. We understand how important your laptop is to you, and we strive to get you back up and running as quickly as possible.</p>
+          <p class="text-gray-600 mb-6">With years of experience in the industry, we have the knowledge and expertise to handle any laptop repair issue, from simple screen replacements to complex motherboard repairs. We use only high-quality parts and offer a warranty on all of our services.</p>
+          <p class="text-gray-600">Customer satisfaction is our top priority. We are committed to providing excellent customer service and building long-term relationships with our clients.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Accordion -->
+  <section class="py-16 bg-gray-50" role="region" aria-labelledby="faq-heading">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="faq-heading" class="text-3xl font-bold text-center text-gray-800 mb-8">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <button class="flex items-center justify-between w-full p-4 text-gray-800 font-semibold focus:outline-none" aria-expanded="false" aria-controls="faq-content-1">
+            <span>How long will it take to repair my laptop?</span>
+            <svg class="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="faq-content-1" class="p-4 text-gray-600 hidden" role="region" aria-labelledby="faq-heading">
+            The repair time depends on the nature of the problem. Simple repairs like screen replacements can usually be completed within a few hours, while more complex repairs like motherboard issues may take longer. We will provide you with an estimated turnaround time when you bring in your laptop.
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <button class="flex items-center justify-between w-full p-4 text-gray-800 font-semibold focus:outline-none" aria-expanded="false" aria-controls="faq-content-2">
+            <span>How much will it cost to repair my laptop?</span>
+            <svg class="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div id="faq-content-2" class="p-4 text-gray-600 hidden" role="region" aria-labelledby="faq-heading">
+            The cost of repair will depend on the type of repair needed and the parts required. We offer free diagnostics and will provide you with a detailed quote before we begin any work.
+          </div>
+        </div>
+
+        <!-- Add more FAQ items as needed -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="py-20 bg-gradient-to-r from-primary to-secondary text-white text-center" role="region" aria-label="Call to Action">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold mb-8">Need Your Laptop Repaired?</h2>
+      <p class="text-lg mb-8">Contact us today for a free quote and get your laptop back in top condition!</p>
+      <a href="#contact" class="inline-block bg-white text-primary px-6 py-3 rounded-md hover:bg-gray-100 transition-colors duration-200">Get a Free Quote</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-white" role="region" aria-labelledby="contact-heading">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 id="contact-heading" class="text-3xl font-bold text-center text-gray-800 mb-8">Contact Us</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div>
+          <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwxfHxvZmZpY2V8ZW58MXwwfHx8MTc1NjE4MTAxNXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Contact Lapot Repair Shop" class="w-full h-64 object-cover rounded-lg">
+        </div>
+        <div>
+          <form action="#" method="POST" class="space-y-4">
+            <div>
+              <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
+              <input type="text" id="name" name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Name">
+            </div>
+            <div>
+              <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+              <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Email">
+            </div>
+            <div>
+              <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message:</label>
+              <textarea id="message" name="message" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="bg-primary text-white px-4 py-2 rounded-md hover:bg-primary-700 transition-colors duration-200">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer with Links -->
+  <footer class="bg-gray-800 text-white py-8" role="contentinfo">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div>
+          <h4 class="text-lg font-semibold mb-2">About Us</h4>
+          <p class="text-gray-400">Your trusted laptop repair experts in Gaziabad.</p>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-2">Quick Links</h4>
+          <ul class="text-gray-400 space-y-1">
+            <li><a href="#services" class="hover:text-white transition-colors duration-200">Services</a></li>
+            <li><a href="#about" class="hover:text-white transition-colors duration-200">About Us</a></li>
+            <li><a href="#contact" class="hover:text-white transition-colors duration-200">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-semibold mb-2">Contact Information</h4>
+          <p class="text-gray-400">Address: Some Address in Gaziabad, UP 201001</p>
+          <p class="text-gray-400">Phone: +91-9999999999</p>
+          <p class="text-gray-400">Email: info@lapotrepair.com</p>
+        </div>
+      </div>
+      <div class="mt-8 text-center text-gray-400">
+        <p>&copy; 2024 Lapot Repair Shop. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      mobileMenuButton.addEventListener('click', function () {
+        mobileMenu.classList.toggle('hidden');
+      });
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+    const faqButtons = document.querySelectorAll('button[aria-controls^="faq-content-"]');
+
+    faqButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const expanded = this.getAttribute('aria-expanded') === 'true' || false;
+            this.setAttribute('aria-expanded', !expanded);
+            const contentId = this.getAttribute('aria-controls');
+            const content = document.getElementById(contentId);
+            content.classList.toggle('hidden');
+        });
+    });
+});
+  </script>
+
+</body>
+</html>
